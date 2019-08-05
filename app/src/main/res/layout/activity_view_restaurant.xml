@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8A9B3"
+    tools:context=".ViewRestaurant">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="Restaurants List"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Galadari"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Thalapakatti"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="104dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="32dp"
+        android:text="BurgerKing"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="117dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="32dp"
+        android:text="Pizza Hut"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="98dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="32dp"
+        android:text="Dinemore"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <Button
+        android:id="@+id/btnAddFood1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="95dp"
+        android:background="@color/green"
+        android:text="@string/addFood"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddFood2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="@string/addFood"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView17"
+        app:layout_constraintEnd_toEndOf="@+id/btnAddFood1" />
+
+    <Button
+        android:id="@+id/btnAddFood3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="@string/addFood"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="@+id/btnAddFood2" />
+
+    <Button
+        android:id="@+id/btnAddFood4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="@string/addFood"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/btnAddFood3" />
+
+    <Button
+        android:id="@+id/btnAddFood5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="@string/addFood"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="@+id/btnAddFood4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

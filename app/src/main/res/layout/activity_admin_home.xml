@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8A9B3"
+    tools:context=".AdminHome">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Admin Home"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imgBtnAddRes"
+        android:layout_width="368dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/pic1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Add Restaurans"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imgBtnAddRes"
+        app:layout_constraintTop_toTopOf="@+id/imgBtnAddRes" />
+
+    <ImageButton
+        android:id="@+id/imgBtnViewRes"
+        android:layout_width="375dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtnAddRes"
+        app:layout_constraintStart_toStartOf="@+id/imgBtnAddRes"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtnAddRes"
+        app:srcCompat="@drawable/pic2" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="View Restaurant"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imgBtnViewRes"
+        app:layout_constraintTop_toTopOf="@+id/imgBtnViewRes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lite-Up</string>
+    <string name="update_food_info">Update Food Info</string>
+    <string name="name">Name</string>
+    <string name="speciality">Speciality</string>
+    <string name="price">Price</string>
+    <string name="addFood">Add Food</string>
+
+</resources>

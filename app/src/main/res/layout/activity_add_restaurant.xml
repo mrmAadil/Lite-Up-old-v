@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8A9B3"
+    tools:context=".AddRestaurant">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/NormalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:text="Input the following Details" />
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Restaurant Name:"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email:"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/AddressInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Address:"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/PhoneNumberInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Phone Number:"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_alignStart="@+id/linearLayout2"
+            android:layout_alignBottom="@+id/linearLayout2"
+            android:text="Submit" />
+    </LinearLayout>
+
+</RelativeLayout>

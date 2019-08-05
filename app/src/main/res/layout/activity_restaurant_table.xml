@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8A9B3"
+    tools:context=".RestaurantTable"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Restaurant Table"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="#f1f1f1">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="" />
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</LinearLayout>
