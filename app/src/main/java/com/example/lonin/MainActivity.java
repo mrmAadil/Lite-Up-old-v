@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity {
 
         Name = (EditText)findViewById(R.id.etName);
         Password = (EditText)findViewById(R.id.etPassword);
-      //Info = (TextView)findViewById(R.id.tvInfo);
+        Info = (TextView)findViewById(R.id.tvInfo);
         LogIn = (Button) findViewById(R.id.btnLogIn);
         userRegister = (TextView) findViewById(R.id.tvRegister);
 
-        //Info.setText("No of attempts remaining: 5");
+        Info.setText("No of attempts remaining: 5");
 
         LogIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,16 +51,16 @@ public class MainActivity extends AppCompatActivity {
 
     private void validate(String userName,String userPassword ){
         if((userName.equals( "Admin")  )&&(userPassword.equals( "1234")) ){
-            Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+            Intent intent = new Intent(MainActivity.this, AdminHome.class);
             startActivity(intent);
         }else if ((userName.equals("User"))&&(userPassword.equals("1234"))){
-            Intent intent = new Intent(MainActivity.this, AdminHome.class);
+            Intent intent = new Intent(MainActivity.this, SecondActivity.class);
             startActivity(intent);
 
         }else{
             Counter--;
 
-           //Info.setText("No of attempts remeining" + String.valueOf(Counter));
+           Info.setText("No of attempts remeining:" + String.valueOf(Counter));
 
             if(Counter == 0){
                 LogIn.setEnabled(false);
