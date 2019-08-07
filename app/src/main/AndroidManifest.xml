@@ -19,6 +19,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".UpdateFoodActivity" />
+        <activity android:name=".EditRestaurantActivity"/>
+        <activity android:name=".RestaurantRegisterActivity"/>
+        <activity android:name=".RestaurantTableActivity"/>
         <activity android:name=".AddFoodsActivity" />
         <activity android:name=".ViewFoodActivity" />
         <activity android:name=".RestaurantTable" />
