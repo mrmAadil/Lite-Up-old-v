@@ -6,4 +6,6 @@
     <string name="price">Price</string>
     <string name="addFood">Add Food</string>
 
+    <string name="btn_add">Add</string>
+
 </resources>
